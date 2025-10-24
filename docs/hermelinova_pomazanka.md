@@ -8,6 +8,6 @@ Hermelínový salát nebo pomazánka
 - nastrouhat nahrubo uvařené vejce
 - přidat majolku a jogurt (1:1)
 
-> promíchat vidličkou a přendat do misky<br>
+> promíchat vidličkou a přendat do misky  
 > přikrýt a dát vychladit
 

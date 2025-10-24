@@ -2,18 +2,38 @@ site_name: Receptář
 theme:
   name: material
   language: cs
+
   palette:
     # Dark Mode
-    - scheme: slate
+    - scheme: slate 
       toggle:
         icon: material/weather-sunny
-        name: Dark Mode
-      primary: green
+        name: Light Mode
+      # primary: black
       accent: deep purple
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Light Mode
-      primary: blue
+        name: Dark Mode
+      # primary: blue
       accent: deep orange
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+plugins:
+  - search
+  - macros
