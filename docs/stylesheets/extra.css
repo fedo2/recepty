@@ -1,14 +1,15 @@
 .md-typeset .highlight-box {
-    background-color: var(--md-code-bg-color);
-    padding: 1em;
-    border-radius: 4px;
-    margin: 1em 0;
+  background-color: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+  padding: 1em;
+  border-radius: 4px;
+  margin: 1em 0;
 }
 
 .md-typeset .highlight-box ul {
-    margin: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 .md-typeset .highlight-box li {
-    margin: 0.2em 0;
+  margin: 0.2em 0;
 }
